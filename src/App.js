@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Ardibuk from './components/Ardibuk';
+import ArdibukAdvantages from './components/ArdibukAdvantages';
+import ProductsServices from './components/ProductsServices';
+import Ardipen from './components/Ardipen';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Main />
+      <Ardibuk/>
+      <ArdibukAdvantages/>
+      <ProductsServices/>
+      <Ardipen/>
     </div>
   );
 }

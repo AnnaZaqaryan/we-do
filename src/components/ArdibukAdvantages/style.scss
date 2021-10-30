@@ -1,0 +1,21 @@
+.root {
+    padding: 120px 0 20px 0;
+    h2 {
+        text-align: center;
+        color: #84538F;
+        font-size: 36px;
+    }
+    .item {
+        height: 150px;
+        opacity: 1;
+        border-radius: 12px;
+        padding-top: 40px;
+        text-align: center;
+        box-shadow: 0px 6px 12px #84538F1A;
+        background: #FEFEFE 0% 0% no-repeat padding-box;
+        span {
+            color: #3B3535;
+            font-size: 16px;
+        }
+    }
+}

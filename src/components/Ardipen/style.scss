@@ -1,0 +1,16 @@
+.root {
+    h2 {
+        text-align: left;
+    }
+
+    .ardipen-items {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .ardipen-item {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
