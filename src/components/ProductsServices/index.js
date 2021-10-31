@@ -24,7 +24,7 @@ const ProductsServices = () => {
 
     return (
         <Container maxWidth="lg">
-            <Box className="root">
+            <Box className="productsServices">
                 <h2>Продукция</h2>
                 <Grid container spacing={2} justifyContent="center" alignItems="center">
                     {items.map((item) => (

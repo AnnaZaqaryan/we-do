@@ -1,0 +1,25 @@
+.menuItemLeng {
+    padding-top: 5px;
+}
+.MuiFormControl-root {
+    .MuiInput-underline {
+        &:hover:not(.Mui-disabled):before {
+            border-bottom: none;
+        }
+        &:before {
+            border-bottom: none;
+        }
+     
+        .MuiSelect-icon {
+            color: #84538F;
+        }
+        &:after {
+          border-bottom: none;
+        }
+    }
+    .MuiSelect-select{
+        &:focus {
+            background-color: #bfcfe5;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.banner {
+    padding: 100px 0 120px 0;
+
+    img {
+        width: 100%;
+        max-width: 1384px;
+    }
+
+    .coming-soon-text {
+        position: relative;
+
+        .text {
+            position: absolute;
+            top: 180px;
+            right: 161px;
+
+            p {
+                color: #fff;
+                font-size: 36px;
+            }
+
+            span {
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+}

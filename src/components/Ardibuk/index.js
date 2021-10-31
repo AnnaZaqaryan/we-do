@@ -7,6 +7,7 @@ const Ardibuk = () => {
 
     return (
         <Container maxWidth="lg">
+            <Box className="ardibuk">
             <Grid container justifyContent="center" alignItems="center">
                 <Grid item xs={5} md={6}>
                     <h2>Что такое Ардибук?</h2>
@@ -24,9 +25,10 @@ const Ardibuk = () => {
                     <button >Больше о нас</button>
                 </Grid>
                 <Grid item xs={5} md={6}>
-                    <img src={ardibook} />
+                    <img src={ardibook}/>
                 </Grid>
             </Grid>
+            </Box>
         </Container>
     )
 }

@@ -1,16 +1,52 @@
-.root {
+.ardipen {
+    padding: 120px 0 0 0;
     h2 {
+        margin: 0;
+        color: #84538F;
+        font-size: 36px;
+        padding-bottom: 20px;
         text-align: left;
+        z-index: 200;
     }
 
-    .ardipen-items {
+    p {
+        margin: 0;
+        color: #3B3535;
+        font-size: 16px;
+        padding-bottom: 28px;
+    }
+
+    .item-left {
         display: flex;
-        align-items: center;
-        flex-direction: column;
 
         .ardipen-item {
             display: flex;
             align-items: center;
+
+            p {
+
+                color: #3B3535;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .item-right {
+        text-align: center;
+
+        button {
+            width: 213px;
+            height: 50px;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 25px;
+            box-shadow: 0px 6px 16px #84538F4D;
+            background: transparent radial-gradient(closest-side at 49% 50%, #84538F 0%, #50145D 100%) 0% 0% no-repeat padding-box;
+
+            &:hover {
+                box-shadow: 0px 8px 20px #84538F99;
+            }
         }
     }
 }

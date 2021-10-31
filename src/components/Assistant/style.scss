@@ -1,0 +1,38 @@
+.assistant {
+    h2 {
+        color: #84538F;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .item {
+        height: 280px;
+        position: relative;
+        .play-button {
+            position: absolute;
+            bottom: 5px;
+            right: 170px;
+            width: 58px;
+            height: 58px;
+            opacity: 1;
+            text-align: center;
+            border-radius: 35px;
+            box-shadow: 0px 6px 16px #84538F4D;
+            background: transparent radial-gradient(closest-side at 49% 50%, #84538F 0%, #50145D 100%) 0% 0% no-repeat padding-box;
+            svg{
+            padding: 18px 0 0 4px;
+            }
+        }
+        img {
+            width: 100%;
+        }
+
+        p {
+            color: #84538F;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+}

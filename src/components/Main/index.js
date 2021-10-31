@@ -1,15 +1,18 @@
 import React from 'react';
 import { Box, Grid } from '@material-ui/core';
 import image from '../../images/image.png';
+import mainImage from '../../images/main-image.png'
 import './style.scss';
 
 const Main = () => {
 
     return (
         <Box className="main">
-            <Grid container >
-                <Grid item xs={5} md={5}>
-                
+            <Grid container>
+                <Grid item xs={5} md={6}>
+                    <div className="main-image">
+                        <img src={mainImage} />
+                    </div>
                 </Grid>
                 <Grid item xs={5} md={6}>
                     <div className="main-text">

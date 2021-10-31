@@ -46,7 +46,7 @@ const ArdibukAdvantages = () => {
     return (
 
         <Container maxWidth="lg">
-            <Box className="root">
+            <Box className="ardibukAdvantages">
                 <h2>Преимущества Ардибука</h2>
                 <Grid container spacing={3}>
                     {items.map((item) => (
