@@ -31,9 +31,9 @@ const Assistant = () => {
         <Container maxWidth="lg">
             <Box className="assistant">
                 <h2>Видео помощник</h2>
-                <Grid container spacing={2} justifyContent="center" alignItems="center">
+                <Grid container spacing={2} justifyContent="center" alignItems="baseline">
                     {items.map((item) => (
-                        <Grid item xs={5} md={4}>
+                        <Grid item xs={10}  md={4}>
                             <div className="item">
                                 <img src={item.img} />
                                 <div className="play-button">{item.icon}</div>

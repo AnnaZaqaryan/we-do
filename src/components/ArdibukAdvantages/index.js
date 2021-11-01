@@ -48,17 +48,19 @@ const ArdibukAdvantages = () => {
         <Container maxWidth="lg">
             <Box className="ardibukAdvantages">
                 <h2>Преимущества Ардибука</h2>
-                <Grid container spacing={3}>
-                    {items.map((item) => (
-                        <Grid item xs={5} md={3}>
-                            <div className="item">
-                                <div>
-                                    <img src={item.img} />
-                                </div>
-                                <span>{item.title}</span>
-                            </div>
-                        </Grid>
-                    ))}
+                <Grid container spacing={2}>
+                    <div className="item-book">
+                            {items.map((item) => (
+                                <Grid item xs={8} sm={6} md={3} className="item-book-grid">
+                                    <div className="item">
+                                        <div>
+                                            <img src={item.img} />
+                                        </div>
+                                        <span>{item.title}</span>
+                                    </div>
+                                </Grid>
+                            ))}
+                    </div>
                 </Grid>
             </Box>
         </Container>

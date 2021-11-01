@@ -1,9 +1,12 @@
 .banner {
     padding: 100px 0 120px 0;
 
-    img {
-        width: 100%;
-        max-width: 1384px;
+    .main-image {
+        display: block;
+
+        // @media (max-width: 576px) {
+        //     display: none;
+        // }
     }
 
     .coming-soon-text {
@@ -11,8 +14,9 @@
 
         .text {
             position: absolute;
-            top: 180px;
-            right: 161px;
+            top: 25%;
+            left: 60%;
+            transform: translate(18%, 5%);
 
             p {
                 color: #fff;
@@ -26,3 +30,7 @@
         }
     }
 }
+
+// @media (max-width: 576px) {
+//     display: none;
+// }

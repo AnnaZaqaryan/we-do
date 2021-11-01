@@ -28,21 +28,22 @@ const ProductsServices = () => {
                 <h2>Продукция</h2>
                 <Grid container spacing={2} justifyContent="center" alignItems="center">
                     {items.map((item) => (
-                        <Grid item xs={5} md={4}>
+                        <Grid item xs={4} md={4}>
                             <div className="item-book">
                                 <img src={item.img} />
-                                <p>Набор Ардибук 3 в 1</p>
-                                <p>48 000 драм</p>
+                                <p className="title">Набор Ардибук 3 в 1</p>
+                                <p className="sub-title">48 000 драм</p>
                                 <div className="icons">
                                     <button>Купить</button>
-                                     <div className="icon"><Favourite/></div>
+                                    <div className="icon"><Favourite /></div>
                                 </div>
                             </div>
                         </Grid>
                     ))}
-                    <a href="#" >Все продукты</a>
                 </Grid>
+                <div className="link"><a href="#">Все продукты</a></div>
             </Box>
+
         </Container>
 
     )

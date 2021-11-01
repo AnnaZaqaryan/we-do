@@ -9,7 +9,7 @@ const AboutUs = () => {
             <Box className="about-us">
                 <h2>Немного о нас</h2>
                 <Grid container justifyContent="center" alignItems="center">
-                    <Grid item xs={8} md={8}>
+                    <Grid item xs={10} md={8}>
                         <img src={aboutImage} className="about" />
                         <a className="play-btn" href="#"></a>
                     </Grid>

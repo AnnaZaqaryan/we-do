@@ -8,13 +8,14 @@ const Main = () => {
 
     return (
         <Box className="main">
-            <Grid container>
-                <Grid item xs={5} md={6}>
+         
+            <Grid container  justifyContent="center">
+                <Grid item xs={10} sm={10} md={6}>
                     <div className="main-image">
                         <img src={mainImage} />
                     </div>
                 </Grid>
-                <Grid item xs={5} md={6}>
+                <Grid item xs={10} sm={10} md={6}>
                     <div className="main-text">
                         <h1>Интерактивно <br />развивающая книга</h1>
                         <p>Первая интерактивно развивающая книга на армянском <br /> языке… чтобы наши дети говорили по армянский</p>

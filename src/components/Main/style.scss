@@ -5,18 +5,41 @@
     .main-image {
         width: 440px;
         margin: 0 auto;
+        display: block;
+        @media (max-width: 768px) {
+            width:310px;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 350px;
+            width: 100%;
+            @media (max-width: 768px) {
+                width: 300px;
+            }
+        }
     }
+
     .main-text {
         padding-bottom: 200px;
-
         h1 {
             color: #84538F;
             font-size: 46px;
+            padding-top: 100px;
+
+            @media (max-width: 768px) {
+                font-size: 30px;
+                padding-top: 50px;
+                text-align: center;
+            }
         }
 
         p {
             color: #3B3535;
             font-size: 18px;
+            @media (max-width: 768px) {
+                font-size: 16px;
+                text-align: center;
+            }
         }
 
         button {
@@ -29,11 +52,19 @@
             border-radius: 25px;
             background: transparent radial-gradient(closest-side at 49% 50%, #84538F 0%, #50145D 100%) 0% 0% no-repeat padding-box;
             box-shadow: 0px 6px 16px #84538F4D;
+
             &:hover {
                 box-shadow: 0px 8px 20px #84538F99;
             }
+
+            @media (max-width: 768px) {
+                width: 120px;
+                height: 43px;
+                margin-left: 33%;
+            }
         }
     }
+
     .coming-soon {
         display: flex;
         height: 149px;
@@ -44,6 +75,10 @@
         border-radius: 60px 0px 0px 0px;
         backdrop-filter: blur(28px);
         -webkit-backdrop-filter: blur(28px);
+
+        @media (max-width: 1130px) {
+            display: none;
+        }
 
         p {
             color: #84538F;
