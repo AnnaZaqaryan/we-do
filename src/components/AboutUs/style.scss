@@ -25,6 +25,9 @@
         top: -228px;
         left: 346px;
         box-shadow: 0px 0px 25px 3px #fff;
+        @media (max-width: 768px) {
+            display: none;
+        }
     }
 
     .play-btn::after {

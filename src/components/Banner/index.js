@@ -16,7 +16,6 @@ const Banner = () => {
                         <span>Lorem ipsum — классический текст-«рыба».<br /> Является искажённым отрывком из философского<br /> трактата Марка Туллия Цицерона.</span>
                     </div>
                 </div>
-                {/* <img src={bannerMobile} className="main-image-mobile"/> */}
             </Box>
         </Container >
 

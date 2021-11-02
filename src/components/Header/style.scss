@@ -2,10 +2,9 @@
     background: #bfcfe5;
     padding: 11px 0 7px 0;
     position: fixed;
-    width: 100%;
     z-index: 200;
+    width: 100%;
     top: 0;
-
     .header-logo {
         text-align: center;
     }
@@ -37,10 +36,12 @@
         justify-content: space-around;
         align-items: center;
         width: 330px;
+
         @media (max-width: 768px) {
             width: 150px;
         }
-        .select{
+
+        .select {
             @media (max-width: 768px) {
                 display: none;
             }
